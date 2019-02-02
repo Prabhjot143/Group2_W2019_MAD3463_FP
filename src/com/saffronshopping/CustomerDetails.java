@@ -117,7 +117,7 @@ public class CustomerDetails {
             System.out.println("invalid password");
             password= scanner.nextLine();
         }
-
+        System.out.println("Sign in successful.");
     }
 
     public void updateProfile(){
